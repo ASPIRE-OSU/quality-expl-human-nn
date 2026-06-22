@@ -1,0 +1,4 @@
+model,most_nonzero,num_most_nonzero,2nd_nonzero,num_2nd_nonzero,3rd_nonzero,num_3rd_nonzero,4th_nonzero,num_4th_nonzero,5th_nonzero,num_5th_nonzero,6th_nonzero,num_6th_nonzero,7th_nonzero,num_7th_nonzero,8th_nonzero,num_8th_nonzero,9th_nonzero,num_9th_nonzero,10th_nonzero,num_10th_nonzero
+dnsmos,freqbin_20,68,freqbin_26,68,freqbin_30,65,freqbin_28,64,freqbin_29,64,freqbin_24,63,freqbin_27,63,freqbin_14,63,freqbin_21,62,freqbin_25,61
+mosnet,freqbin_17,72,freqbin_25,71,freqbin_27,65,freqbin_26,63,freqbin_29,62,freqbin_23,61,freqbin_28,57,freqbin_30,57,freqbin_18,55,freqbin_24,54
+scoreq,freqbin_20,45,freqbin_25,40,freqbin_3,40,freqbin_24,39,freqbin_8,38,freqbin_28,38,freqbin_45,38,freqbin_21,37,freqbin_12,36,freqbin_19,35
