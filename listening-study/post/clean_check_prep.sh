@@ -8,15 +8,15 @@ set -e
 # $4: filepath for participant map, e.g., ../data/participant_map.xlsx
 
 # Clean data 
-# echo "Cleaning..."
-# python3 clean.py --in_file $1 --out_file $2 --incomplete_file $3 --participant_map ../data/participant_map.xlsx
-# echo ""
+echo "Cleaning..."
+python3 clean.py --in_file $1 --out_file $2 --incomplete_file $3 --participant_map ../data/participant_map.xlsx
+echo ""
 
 # # Aggregate data
-# echo "Collecting all data..."
+echo "Collecting all data..."
 cd ../data
-# python3 collect_all_data.py
-# echo ""
+python3 collect_all_data.py
+echo ""
 
 # Remove non-accepted data
 echo "Removing non-accepted data..."
