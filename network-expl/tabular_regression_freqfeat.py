@@ -316,7 +316,7 @@ def _parse_args():
     parser.add_argument('-ie', '--index_end', required=False, type=int, default=None, help='The index of the text sample to end at.')
     parser.add_argument('-f', '--features', required=False, type=str, nargs="*", default=[], help='A list of target features to explain (global only).')
     parser.add_argument('-r', '--number', required=False, type=int, default=None, help='Instead of providing indices of files to analyze, use this argument to specify the number to analyze and the script will randonly choose some not present in the output directory.')
-    parser.add_argument('-mbo', "--bak_ovr_model_path", default='/fs/ess/PAS3309/Data/Speech/DNS-Challenge/DNS-Challenge/DNSMOS/bak_ovr.onnx', help='Path to ONNX or ckpt model for BAK and OVR prediction')
+    parser.add_argument('-mbo', "--bak_ovr_model_path", default='./dnsmos/bak_ovr.onnx', help='Path to ONNX or ckpt model for BAK and OVR prediction')
     parser.add_argument('-l', "--input_length", type=int, default=9)
 
     return parser.parse_args()
