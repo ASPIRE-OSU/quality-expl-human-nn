@@ -13,14 +13,9 @@ Following the network-based study, we performed a small-scale listening study to
 See the READMEs in `listening-study/` and `network-expl/` for tutorials. 
 
 ## Data
-For our experiments, we use a portion of [Dong and Williamson's dataset](https://www.isca-archive.org/interspeech_2020/dong20_interspeech.html) which we refer to as IUCOSINE. This dataset contains mean opinion scores (MOS) from five human listeners for 18,000 audio files from the [COnversational Speech In Noisy Environments (COSINE) corpus](https://ieeexplore.ieee.org/document/4960543). 
+For our experiments, we use a portion of [Dong and Williamson's IUB dataset](https://www.isca-archive.org/interspeech_2020/dong20_interspeech.html). This dataset contains mean opinion scores (MOS) from five human listeners for 18,000 audio files from the [COnversational Speech In Noisy Environments (COSINE) corpus](https://ieeexplore.ieee.org/document/4960543) and 18,000 files from the [Voices Obscured in Complex Environmental Settings](https://iqtlabs.github.io/voices/) dataset. This dataset is available [here](https://huggingface.co/datasets/aspire-osu/iub-dataset).
 
-## TO DO
-- [ ] The NN explanations require .pkl files that are too big to upload to Git, so write a tutorial on how to generate them
-- [ ] Move IUCOSINE data to data folder and update paths
-- [ ] Add results folder for images and delete others
-- [ ] Check file paths
-- [ ] Upload or reference IUCOSINE data
+Our work uses only the COSINE files from IUB, which we call IUCOSINE. The file names and their labels are described in `data/iucosine.csv`.
 
 ## Citation
 If you use any part of this work, please cite us.
