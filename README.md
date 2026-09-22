@@ -1,5 +1,5 @@
 # How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment
-This repository contains the implementation of the paper _How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment_ as published in Interspeech 2026.
+This repository contains the implementation of the paper [_How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment_](https://www.isca-archive.org/interspeech_2026/lamba26_interspeech.html) as published in Interspeech 2026.
 
 In this work, we used several explanation approaches (Shapley Additive Explanations, partial dependence plots, and perturbation analysis) to determine which frequency bands were most influential for three speech quality assessment neural networks: DNSMOS, MOSNet, and SCOREQ. See `network-expl` for more information. 
 
@@ -19,14 +19,18 @@ Our work uses only the COSINE files from IUB, which we call IUCOSINE. The file n
 
 ## Citation
 If you use any part of this work, please cite us.
+
+**BibTex**:
 ```
-@inproceedings{quality-expl-human-nn,
-    authors = {Lamba, Ada and Williamson, Donald S.},
-    title = {{How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment}},
-    month = {09},
-    year = {2026},
-    city = {Sydney, Australia}
-    booktitle = {Proc. Interspeech}
+@inproceedings{lamba26_interspeech,
+  title     = {{How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment}},
+  author    = {Ada Lamba and Donald S. Williamson},
+  year      = {2026},
+  booktitle = {{Interspeech 2026 [Long Track]}},
+  pages     = {7353--7362},
+  doi       = {10.21437/Interspeech.2026-2382},
+  issn      = {2958-1796},
 }
 ```
+**Plain text**: Lamba, A., Williamson, D.S. (2026) How Frequency Band Importance Affects Neural Network Predictions and Human Perception for Speech Quality Assessment. Proc. Interspeech 2026 [Long Track], 7353-7362, doi: 10.21437/Interspeech.2026-2382
 
